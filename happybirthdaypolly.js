@@ -1,8 +1,6 @@
 if (Meteor.isClient) {
-Template.hello.letters = function () {
+Template.hello.rendered = function () {
     $(".cs-text").lettering('words').children('span').lettering();
-    if (typeof console !== 'undefined')
-        console.log("You pressed the button");
   };
 }
 
