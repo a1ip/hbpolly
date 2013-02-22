@@ -1,5 +1,22 @@
 <head>
   <title>happybirthdaypolly</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="description" content="Happy Birthday Polly" />
+  <meta name="keywords" content="Happy Birthday, Polly" />
+  <meta name="author" content="phil@rigovanov.ru" />
+  <link rel="stylesheet" type="text/css" href="css/demo.css" />
+  <link rel="stylesheet" type="text/css" href="css/style3.css" />
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300|Ubuntu&subset=latin,cyrillic' rel='stylesheet' type='text/css' />
+  <script type="text/javascript" src="js/modernizr.custom.79639.js"></script> 
+		<!--[if lte IE 8]><style>.support-note .note-ie{display:block;}</style><![endif]-->
+		<!-- Put this script tag to the <head> of your page -->
+  <script type="text/javascript" src="http://userapi.com/js/api/openapi.js?45"></script>
+
+  <script type="text/javascript">
+    VK.init({apiId: 2732710, onlyWidgets: true});
+  </script>
 </head>
 
 <body>
@@ -7,5 +24,93 @@
 </body>
 
 <template name="hello">
-  
+  <div class="container">
+		
+			<!-- Codrops top bar -->
+            <div class="codrops-top">
+                <a href="http://www.webmasters.by/articles/html-coding/2308-creative-web-typography-styles.html">
+                    <strong>&laquo; Вернуться к статье </strong>
+                </a>
+                <div class="clr"></div>
+            </div><!--/ Codrops top bar -->
+			
+			<header>
+			
+				<h1>Креативное <strong>использование веб-шрифтов</strong></h1>
+				<h2>Оригинальные текстовые стили и эффекты</h2>
+				
+				<nav class="codrops-demos">
+					<a href="index.html">Demo 1</a>
+					<a href="index2.html">Demo 2</a>
+					<a class="current-demo" href="index3.html">Demo 3</a>
+					<a href="index4.html">Demo 4</a>
+					<a href="index5.html">Demo 5</a>
+					<a href="index6.html">Demo 6</a>
+					<a href="index7.html">Demo 7</a>
+					<a href="index8.html">Demo 8</a>
+				</nav>
+				
+				<div class="support-note"><!-- let's check browser support with modernizr -->
+					<span class="no-csstransforms">CSS transforms не поддерживается Вашим браузером</span>
+					<span class="note-ie">Извините, это работает только в современных браузерах.</span>
+				</div>
+				
+			</header>
+			
+			<section class="main">
+				
+				<h2 class="cs-text">Я вас любил: &hearts;любовь еще, быть может, В душе моей угасла не совсем, Но пусть она вас больше не тревожит, Я не хочу печалить вас ничем.</h2>
+				<h3 class="cs-text">АС Пушкин</h3>
+				
+			</section>
+			
+        </div>
+
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.lettering.js"></script>
+		<script>
+			$(document).ready(function() {
+				$(".cs-text").lettering('words').children('span').lettering()
+			});
+		</script>
+		
+		
+		  <script src="jquery.sharrre-1.3.3.js"></script>
+		      	<!-- Put this div tag to the place, where the Like block will be -->
+		<div id="vk_like"></div>
+		<script type="text/javascript">
+		VK.Widgets.Like("vk_like", {type: "vertical", height: 24});
+		</script>
+  	<div id="demo1"></div>
+<script>
+$('#demo1').sharrre({
+share: {
+googlePlus: true,
+facebook: true,
+twitter: true
+},
+buttons: {
+googlePlus: {size: 'tall'},
+facebook: {layout: 'box_count'},
+twitter: {count: 'vertical'}
+},
+enableHover: false,
+enableCounter: false,
+enableTracking: true
+});
+</script>
+		<script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-1093811-4']);
+		  _gaq.push(['_setDomainName', 'webmasters.by']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+
+		</script>
 </template>
