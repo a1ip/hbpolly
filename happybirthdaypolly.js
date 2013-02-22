@@ -1,8 +1,8 @@
 if (Meteor.isClient) {
 
-  Template.hello.greeting = $(document).ready(function() {
+  Template.hello.greeting = function() {
 				$(".cs-text").lettering('words').children('span').lettering()
-			});
+			};
 }
 
 if (Meteor.isServer) {
