@@ -8,15 +8,10 @@
   <meta name="author" content="phil@rigovanov.ru" />
   <link rel="stylesheet" type="text/css" href="css/demo.css" />
   <link rel="stylesheet" type="text/css" href="css/style3.css" />
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300|Ubuntu&subset=latin,cyrillic' rel='stylesheet' type='text/css' />
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300|Ubuntu&subset=latin,cyrillic" rel="stylesheet" type="text/css" />
   <script type="text/javascript" src="js/modernizr.custom.79639.js"></script> 
 		<!--[if lte IE 8]><style>.support-note .note-ie{display:block;}</style><![endif]-->
 		<!-- Put this script tag to the <head> of your page -->
-  <script type="text/javascript" src="http://userapi.com/js/api/openapi.js?45"></script>
-
-  <script type="text/javascript">
-    VK.init({apiId: 2732710, onlyWidgets: true});
-  </script>
 </head>
 
 <body>
@@ -47,10 +42,6 @@
         <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
         <script type="text/javascript" src="js/jquery-migrate-1.1.1.min.js"></script>
 		<script type="text/javascript" src="js/jquery.lettering-0.6.1.min.js"></script>
-		<script>
-			$(document).ready(function() {
-				$(".cs-text").lettering('words').children('span').lettering()
-			});
-		</script>
+		{{greeting}}
 		
 </template>

@@ -1,5 +1,5 @@
 /* CSS declarations go here */
-/*@font-face {
+@font-face {
   font-family: 'Open Sans Condensed';
   font-style: normal;
   font-weight: 300;
@@ -17,7 +17,7 @@
   font-weight: 400;
   src: local('Ubuntu'), url(http://themes.googleusercontent.com/static/fonts/ubuntu/v4/EOw89wVWpfqz-OXHFsgbz-vvDin1pK8aKteLpeZ5c0A.woff) format('woff');
 }
-*/
+
 body {
 	background: url(../images/canvas.jpg);
 }

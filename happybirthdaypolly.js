@@ -1,5 +1,17 @@
 if (Meteor.isClient) {
+  Template.hello.greeting = 
+    $(document).ready(function() {
+				$(".cs-text").lettering('words').children('span').lettering()
+			});
   
+
+  Template.hello.events({
+    'click input' : function () {
+      // template data, if any, is available in 'this'
+      if (typeof console !== 'undefined')
+        console.log("You pressed the button");
+    }
+  });
 }
 
 if (Meteor.isServer) {
