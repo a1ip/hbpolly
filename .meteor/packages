@@ -6,8 +6,3 @@
 autopublish
 insecure
 preserve-inputs
-stylus
-coffeescript
-jquery
-email
-jade-handlebars
