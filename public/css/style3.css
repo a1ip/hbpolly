@@ -69,3 +69,7 @@ h3.cs-text span[class^="char"] {
 	height: 60px;
 	line-height: 60px;
 }
+
+.cs-text {
+    zoom: 30%;
+}
