@@ -1,5 +1,5 @@
 if (Meteor.isClient) {
-Template.hello.rendered = function() {
+Template.greetings.rendered = function() {
   return $(".cs-text").lettering("words").children("span").lettering();
 };
 }
