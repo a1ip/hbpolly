@@ -71,5 +71,13 @@ h3.cs-text span[class^="char"] {
 }
 
 .cs-text {
-    zoom: 30%;
+    zoom: 75%;
+}
+
+.cs-text span {
+    zoom: 75%;
+}
+
+.cs-text span span{
+    zoom: 75%;
 }
