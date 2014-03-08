@@ -9,4 +9,4 @@ preserve-inputs
 jquery
 coffeescript
 stylus
-jade-handlebars
+standard-app-packages
