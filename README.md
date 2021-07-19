@@ -2,4 +2,4 @@ Happy Birthday Polly
 ========================================
 
 
-http://happybirthdaypolly.rigovanov.ru
+https://rigovanov.ru/hbpolly
